@@ -46,7 +46,7 @@ def y2indicator(y):
     N = len(y)
     K = len(set(y))
     ind = np.zeros((N, K))
-    for i in xrange(N):
+    for i in range(N):
         ind[i, y[i]] = 1
     return ind
 
